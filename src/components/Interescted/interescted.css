@@ -41,6 +41,7 @@ font-weight: 600;
         text-align: end;
         align-items: center;
         
+        
         }    
 
         .interescted-button h3{
@@ -58,6 +59,7 @@ font-weight: 600;
             width: 15rem;
             height: 3.5rem;
             border-radius: 30px;
+            border: none;
         }
         .interescted-button button:hover{
             color: #0078ED;

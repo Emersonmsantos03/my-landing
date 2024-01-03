@@ -7,6 +7,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    gap: 3rem;
     
     
 }
@@ -15,6 +16,7 @@
     width: 100%;
     height: 3rem;
     text-align: center;
+    margin-top: 4rem;
     
 }
 
@@ -35,29 +37,32 @@
     justify-content: center;
     flex-direction: row;
     width: 100%;
-    height: 70vh;
+    height: 80vh;
 }
 
 .advantages-bottom button{
-    width: 15rem;
-    height: 3.5rem;
+    width: 26rem;
+    height: 5rem;
     background-color: #0078ED;
-    border-radius: 30px;
+    border-radius: 40px;
     border: none;
     color: #F4F4F4;
-    font-size: 1.3rem;
+    font-size: 2rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
+    transition: 1s ease;
+    margin-bottom: 2rem;
 
 }
 
 .advantages-bottom button:hover{
-    width: 15rem;
-    height: 3.5rem;
+    width: 26.2rem;
+    height: 5.1rem;
     color: #0078ED;
-    border-radius: 30px;
+    border-radius: 40px;
     background-color: #F4F4F4;
     cursor: pointer;
+    transition: 1s ease;
 
 }
 
@@ -73,9 +78,9 @@
 
 
 @media only screen and (max-width: 600px) {
-    .advantages {
+     .advantages {
         width: 100%;
-        height: 160vh;
+        height: 170vh;
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -105,36 +110,41 @@
         flex-direction: column; /* Alterando para coluna para telas menores */
         align-items: center;
         width: 100%;
-        height: auto; /* Ajustando a altura para se adaptar ao conteúdo */
+        height: auto;
+        margin-bottom: 55rem; /* Ajustando a altura para se adaptar ao conteúdo */
       }
       
       .advantages-card {
-        margin-bottom: 1.5rem; /* Adicionando espaçamento entre os cards */
+        margin-bottom: 1.5rem;
+         /* Adicionando espaçamento entre os cards */
       }
       
       .advantages-bottom button,
       .advantages-bottom a {
         margin-top: 2rem;
-        width: 100%; /* Ocupar toda a largura disponível */
-        height: 3.5rem;
+        width: 90%; /* Ocupar toda a largura disponível */
+        height: 5rem;
+        font-size: 1.5rem;
          /* Adicionando espaçamento entre os botões/link */
-        border-radius: 30px;
+        border-radius: 40px;
       }
       
       .advantages-bottom button:hover {
         color: #0078ED;
         background-color: #F4F4F4;
+        width: 91%;
+        height: 5.2rem;
       }
       
       .advantages-bottom a:hover {
         color: #0078ED;
       }
       
+     
       /* Adicione uma media query para telas com largura máxima de 600 pixels */
       @media only screen and (max-width: 600px) {
         .advantages-title h1 {
           font-size: 2.5rem; /* Reduzindo o tamanho da fonte para telas menores */
         }
       }
-      
 }
