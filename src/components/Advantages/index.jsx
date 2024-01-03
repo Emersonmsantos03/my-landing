@@ -12,7 +12,7 @@ let Advantages = () => {
             <AdvCard />
             </div>
             <div className='advantages-bottom'>
-            <a href=''><button>Saiba mais!</button></a>
+            <a href="https://wa.me/554198870232?text=Olá,%20Emerson!%20Gostaria%20de%20saber%20mais%20sobre%20os%20seus%20serviços!" target="_blank"><button>Impulsione o seu negócio!!</button></a>
             </div>
 
         </section>

@@ -9,9 +9,9 @@ let Footer = () => {
 
     let medias = [
         {image: Github, link: 'https://github.com/Emersonmsantos03' },
-        {image: Gmail, link: 'https://github.com/Emersonmsantos03'},
-        {image: Instagram, link: 'https://github.com/Emersonmsantos03'},
-        {image: Whatsapp, link: 'https://github.com/Emersonmsantos03'}
+        {image: Gmail, link: "https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=emerson.moraesdev@gmail.com"},
+        {image: Instagram, link: 'https://www.instagram.com/emersonmoraes.dev?utm_source=ig_web_button_share_sheet&igsh=OGQ5ZDc2ODk2ZA=='},
+        {image: Whatsapp, link: 'https://wa.me/554198870232'}
     ]
 
     return(

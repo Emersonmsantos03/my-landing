@@ -11,6 +11,7 @@ button{
     transition: 1s ease;
     height: 2rem;
     width: 10rem;
+    border: none;
     
     
 }

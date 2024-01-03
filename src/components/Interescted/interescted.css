@@ -72,7 +72,7 @@ font-weight: 600;
                 align-items: center;
                 flex-direction: column; /* Alterando para coluna para telas menores */
                 width: 100%;
-                height: 100vh;
+                height: 70vh;
               }
               
               .interescted-texts {
@@ -119,6 +119,7 @@ font-weight: 600;
                 width: 15rem;
                 height: 3.5rem;
                 border-radius: 30px;
+                border: none;
               }
               
               .interescted-button button:hover {
