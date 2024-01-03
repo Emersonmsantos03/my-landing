@@ -100,6 +100,10 @@
         gap: 1rem; /* Reduzindo o espaçamento entre os elementos */
       }
 
+      .right h4{
+        text-align: center;
+      }
+
       
       
       .right img {
