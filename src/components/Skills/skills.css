@@ -54,3 +54,38 @@ align-items: center;
       }
 
 }
+
+
+@media only screen and (min-width: 900px) and (max-width: 1440px) {
+
+  .skills{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    margin-top: 5rem;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    
+    
+    .title{
+       font-size: 3rem;
+       font-weight: 600;
+        }
+    
+    
+    .container-skills{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+
+}

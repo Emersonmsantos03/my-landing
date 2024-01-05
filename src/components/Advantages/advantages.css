@@ -8,6 +8,7 @@
     align-items: center;
     text-align: center;
     gap: 3rem;
+
     
     
 }
@@ -16,7 +17,8 @@
     width: 100%;
     height: 3rem;
     text-align: center;
-    margin-top: 4rem;
+    margin-top: 20rem;
+    margin-bottom: 5rem;
     
 }
 
@@ -37,7 +39,7 @@
     justify-content: center;
     flex-direction: row;
     width: 100%;
-    height: 80vh;
+    height: 55vh;
 }
 
 .advantages-bottom button{
@@ -51,7 +53,7 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     transition: 1s ease;
-    margin-bottom: 2rem;
+    margin-bottom: 15rem;
 
 }
 
@@ -98,6 +100,7 @@
         font-size: 3rem;
         font-weight: 600;
         color: #F4F4F4;
+        margin-top: 3rem;
       }
       
       .advantages-title b {
@@ -147,4 +150,88 @@
           font-size: 2.5rem; /* Reduzindo o tamanho da fonte para telas menores */
         }
       }
+}
+
+
+@media only screen and (min-width: 900px) and (max-width: 1440px) {
+
+  .advantages{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 3rem;
+
+    
+    
+}
+
+.advantages-title{
+    width: 100%;
+    height: 3rem;
+    text-align: center;
+    margin-top: 25rem;
+    margin-bottom: 5rem;
+    
+}
+
+.advantages-title h1{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #F4F4F4;
+
+}
+
+.advantages-title b{
+    color: #0078ED;
+}
+
+
+.advantages-cards{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: 55vh;
+}
+
+.advantages-bottom button{
+    width: 22rem;
+    height: 5rem;
+    background-color: #0078ED;
+    border-radius: 40px;
+    border: none;
+    color: #F4F4F4;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    transition: 1s ease;
+    margin-top: 5rem;
+
+}
+
+.advantages-bottom button:hover{
+    width: 23rem;
+    height: 5rem;
+    color: #0078ED;
+    border-radius: 40px;
+    background-color: #F4F4F4;
+    cursor: pointer;
+    transition: 1s ease;
+
+}
+
+.advantages-bottom a{
+    width: 15rem;
+    height: 3.5rem;
+    text-decoration: none;
+}
+
+.advantages-bottom a:hover{
+    color: #0078ED;
+}
+
 }
